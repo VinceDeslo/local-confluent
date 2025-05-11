@@ -11,3 +11,9 @@ up:
 
 down:
     docker compose down -v
+
+dash:
+    open "http://localhost:9021"
+
+schemas:
+    curl http://localhost:8081/subjects
